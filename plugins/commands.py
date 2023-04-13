@@ -44,12 +44,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+m3lsH6NZBlE1MWJl'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/+m3lsH6NZBlE1MWJl'),
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ', url='https://t.me/TamilanMoviesChat')
             ],[
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('Aʙᴏᴜᴛ🔰', callback_data='mods')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
