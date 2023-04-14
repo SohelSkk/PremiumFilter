@@ -93,8 +93,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+DsRP0j86lDk1YjY9'),
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='https://t.me/+r-uXyUQJRTsxOWI1')
+            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+xlogu_rSBs5kNWI1'),
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/+bgKgAUWN1pw2Nzll')
+            ],[
+            InlineKeyboardButton(' 🔍 sᴇᴀʀᴄʜ', url= 'https://t.me/+mZVnSzKGHhU0ZmQ1'),
+            InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛs', url='https://t.me/+DsRP0j86lDk1YjY9')
             ],[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data= 'mods'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ🔰', callback_data='about')
