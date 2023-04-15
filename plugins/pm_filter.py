@@ -582,7 +582,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://t.me/Archie_Bots')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('🔙 Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -594,7 +594,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Filmyzilla_Updates')
         ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('🔙 Back', callback_data='mods')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -608,7 +608,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [     
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/Filmyzilla_Updates')
         ], [  
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('🔙 Back', callback_data='about')
         ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
